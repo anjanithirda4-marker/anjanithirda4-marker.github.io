@@ -2,26 +2,34 @@
 <html>
 <head>
   <title>Anjani Thirda | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { background: #f5f7fa; font-family: Arial; margin: 0; padding: 0; }
+    .hero { background: #2c3e50; color: white; text-align: center; padding: 40px 20px; }
+    .container { max-width: 600px; margin: 30px auto; padding: 20px; }
+    h2 { color: #2c3e50; }
+    .card { background: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+    input, textarea { width: 95%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 5px; }
+    button { background: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #2980b9; }
+  </style>
 </head>
-<body style="background: #f5f7fa; font-family: Arial; margin: 0; padding: 0;">
-
-  <div style="background: #2c3e50; color: white; text-align: center; padding: 40px;">
-    <h1 style="margin: 0;">Hi, Nenu Anjani Thirda</h1>
+<body>
+  <div class="hero">
+    <h1>Hi, Nenu Anjani Thirda</h1>
     <p style="font-size: 18px;">1st Year B.Tech ECE | HTML + CSS Enthusiast</p>
   </div>
 
-  <div style="max-width: 600px; margin: 30px auto; padding: 20px;">
-    <h2 style="color: #2c3e50;">Skills</h2>
-    <p style="background: white; padding: 15px; border-radius: 8px;">
-      HTML, CSS Basics, MS Excel, MS Word, Computer Operations, Video Editing
-    </p>
+  <div class="container">
+    <h2>Skills</h2>
+    <p class="card">HTML, CSS Basics, MS Excel, MS Word, Computer Operations, Video Editing</p>
 
-    <h2 style="color: #2c3e50;">Contact Me</h2>
-    <form style="background: white; padding: 20px; border-radius: 8px;">
-      <input type="text" placeholder="Nee Peru" style="width: 95%; padding: 10px; margin: 5px 0;">
-      <input type="email" placeholder="Email" style="width: 95%; padding: 10px; margin: 5px 0;">
-      <textarea placeholder="Message" style="width: 95%; padding: 10px; margin: 5px 0;"></textarea>
-      <button style="background: #3498db; color: white; padding: 10px 20px; border: none; border-radius: 5px;">Send</button>
+    <h2>Contact Me</h2>
+    <form class="card">
+      <input type="text" placeholder="Nee Peru">
+      <input type="email" placeholder="Email">
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
     </form>
   </div>
 </body>
