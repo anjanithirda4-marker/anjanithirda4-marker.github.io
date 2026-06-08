@@ -14,50 +14,52 @@
     input, textarea { width: 95%; padding: 10px; margin: 5px 0; border: 1px solid #ddd; border-radius: 5px; }
     button { background: #27ae60; color: white; padding: 12px 25px; border: none; border-radius: 5px; cursor: pointer; }
     button:hover { background: #229954; }
-    .profile-photo{width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 20px auto; display: block; border: 4px soild #007bff; box-shadow: 0 4px 8px rgba(0,0,0,0,2);}
+    .profile-photo{width: 130px; height: 130px; border-radius: 50%; object-fit: cover; margin: 20px auto; display: block; border: 4px solid #007bff; box-shadow: 0 4px 8px rgba(0,0,0,0.2);}
     .card p { margin: 15px 0 5px 0; }
     progress { width: 200px; height: 20px; accent-color: #007bff; }
   </style>
 </head>
 <body>
   <div class="hero">
-    <h1>Hi, I am  Anjani Thirda</h1>
+    <h1>Hi, I am Anjani Thirda</h1>
     <img src="photo.jpeg" alt="Anjani Thirda" class="profile-photo">
     <p style="font-size: 18px;">1st Year B.Tech ECE | HTML + CSS Enthusiast</p>
-<div class="card">
-  <h2>Skills</h2>
-  <p><b>HTML</b></p>
-  <progress value="90" max="100"></progress>
-  
-  <p><b>CSS</b></p>
-  <progress value="85" max="100"></progress>
-  
-  <p><b>C Programming</b></p>
-  <progress value="70" max="100"></progress>
-  
-  <p><b>Python</b></p>
-  <progress value="60" max="100"></progress>
-</div>
+  </div>
+
   <div class="container">
     <h2>About Me</h2>
-    <p class="card">I am  Anjani Thirda, 1st Year B.Tech ECE student. I am learning  Web development + Video Editing. It's my first  portfolio website, I have build an portfolio with  HTML + CSS in GitHub Pages . I am eager to learn practical knowledge in internship, with a team work.</p>
+    <div class="card">
+      <p>I am Anjani Thirda, 1st Year B.Tech ECE student. I am learning Web development + Video Editing. It's my first portfolio website, I have built this portfolio with HTML + CSS in GitHub Pages. I am eager to learn practical knowledge in internship, with a team work.</p>
+    </div>
 
     <h2>Skills</h2>
-    <p class="card">HTML, CSS Basics, MS Excel, MS Word, Computer Operations, Video Editing</p>
+    <div class="card">
+      <p><b>HTML</b></p>
+      <progress value="90" max="100"></progress>
+      
+      <p><b>CSS</b></p>
+      <progress value="85" max="100"></progress>
+      
+      <p><b>C Programming</b></p>
+      <progress value="70" max="100"></progress>
+      
+      <p><b>Python</b></p>
+      <progress value="60" max="100"></progress>
+    </div>
 
     <h2>Find Me</h2>
     <div class="card links" style="text-align:center">
       <a href="mailto:anjanithirda4@gmail.com">Email</a>
       <a href="https://wa.me/919182394016">WhatsApp</a>
-      <a href="Anjani_Resume.pdf" download class="btn btn-secondary">Download Resume</a>
+      <a href="Anjani_Resume.pdf" download>Download Resume</a>
       <a href="https://github.com/anjanithirda4-marker">GitHub</a>
     </div>
 
     <h2>Contact Me</h2>
     <form class="card">
-      <input type="text" placeholder="Your Name">
-      <input type="email" placeholder="Email">
-      <textarea placeholder="Message"></textarea>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
       <button type="submit">Send</button>
     </form>
   </div>
